@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_selection"
+    android:background="@color/fbase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joshcortez.qr_scanner_v1.selection">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/classe"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="50sp"
+                android:layout_marginBottom="70sp"
+                android:layout_marginTop="70sp"
+                android:layout_gravity="center"
+                android:text="Attendance"
+                android:textSize="30sp"
+                android:textColor="@color/twhite"
+                android:id="@+id/attendButton"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/white"
+        android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/books"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/rect"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="50sp"
+                android:layout_marginBottom="70sp"
+                android:layout_marginTop="70sp"
+                android:layout_gravity="center"
+                android:text="BOOK
+                                BORROWING"
+                android:lineSpacingMultiplier="0.9"
+                android:textSize="30sp"
+                android:textColor="@color/twhite"
+                android:id="@+id/borrowButton" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

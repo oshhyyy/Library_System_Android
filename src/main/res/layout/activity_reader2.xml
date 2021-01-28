@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reader2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="com.example.joshcortez.qr_scanner_v1.Reader2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="© Electives 5 – Group 5. A. V. Chua, K. S. Cuasay, J. Cortez, M. M. P. Magallanes, R. Rufo" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:id="@+id/layout3">
+
+            <Button
+                android:id="@+id/studentqr2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textSize="25sp"
+                android:textColor="@color/green"
+                android:background="@drawable/button_sample"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0sp"
+                android:layout_marginLeft="30sp"
+                android:text="[   ]" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan student QR"
+                android:paddingLeft="20sp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/studentqr2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:id="@+id/layout4">
+
+            <Button
+                android:id="@+id/bookqr2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:textSize="25sp"
+                android:textColor="@color/green"
+                android:background="@drawable/button_sample"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0sp"
+                android:layout_marginLeft="30sp"
+                android:text="[   ]" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan book QR"
+                android:paddingLeft="20sp"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/bookqr2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/confirm"
+                android:text="      Confirm      "
+                android:textColor="@color/green"
+                android:id="@+id/ok2"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gagagagagagaga"
+        android:id="@+id/eeew"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gagagagagagaga"
+        android:id="@+id/eeaw"
+        android:layout_below="@id/eeew"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

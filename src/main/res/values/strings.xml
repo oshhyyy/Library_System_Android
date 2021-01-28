@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QR_Scanner_v1</string>
+    <string name="title_activity_pre_borrow">preBorrow</string>
+</resources>
